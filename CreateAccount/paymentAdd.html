@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Add Payment</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form action="../index.php" method="post">
+  <h2>Add Payment Method</h2>
+        <p> 
+            <label for="cardName" class="floatLabel">Name on Card: </label>
+            <input id="cardName" name="cardName" type="text">
+        </p>
+        <p> 
+            <label for="cardNumber" class="floatLabel">Card Number:</label>
+            <input id="cardNumber" name="cardNumber" type="text">
+        </p>
+        <p> 
+          <label for="expMonth" class="floatLabel">Exp Month:</label>
+          <input id="expMonth" name="expMonth" type="text">
+        </p>
+        <p> 
+          <label for="expYear" class="floatLabel">Exp Year:</label>
+          <input id="expYear" name="expYear" type="text">
+        </p>
+        <p>
+            <label for="cvv" class="floatLabel">CVV</label>
+            <input id="cvv" name="cvv" type="text">
+        </p>
+	
+
+		<p>
+			<input type="submit" value="Add info" id="submit">
+		</p>
+	</form>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
